@@ -35,3 +35,27 @@ body {
   .menu p:hover {
    background-color: #575757;
   }
+  
+/* home */
+.home {
+  background-image:linear-gradient(#d8d2d27a,#dfd7d777), url("https://www.w3schools.com/w3images/parallax1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 10rem;
+  object-fit: cover;
+  justify-content: center;
+  text-align: center;
+  padding-left:35%; 
+  padding-right: 35%;
+  opacity: 1;
+}
+
+.home h1 {
+  background-color: #383838;;
+  color: #fff;
+  padding: 10px 1rem;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  font-family: fantasy;
+}
