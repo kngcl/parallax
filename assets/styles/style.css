@@ -154,3 +154,132 @@ body {
     line-height: 0.5;
     padding: 1.5rem 2rem;
   }
+  /* portfolio */
+  .portfolio-work{
+    padding: 90px;
+  }
+  .portfolio-im{
+    background-image: linear-gradient(#d8d2d27a,#dfd7d777), url("https://www.w3schools.com/w3images/parallax2.jpg");
+    background-position: center;
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1pc;
+  }
+  
+  .portfolio-details {
+    text-align: center;
+  }
+  .portfolio-my-work{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .portfolio-images {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 900px;
+    margin: auto;
+    gap: 15px;
+  }
+  
+  .portfolio-images p {
+    height:16vh;
+  }
+  
+  .portfolio-images p:hover {
+   opacity: 0.6;
+  }
+  
+  .portfolio-picture img {
+    width:100%;
+  }
+  
+  .portfolio-more {
+    display: flex;
+    background-color:rgb(0 0 0 / 16%);
+    color: #000000;
+    max-width: 100px;
+    padding: 1rem 1rem;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .portfolio-more:hover {
+    background-color:#777;
+    cursor: pointer;
+  }
+   /* contact */
+   .contact-images{
+    display: flex;
+    background-image: linear-gradient(#d8d2d27a,#dfd7d777),url("../images/parallax3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1pc;
+    margin-top: 50px;
+  }
+  
+  .contact-details {
+    padding: 50px;
+  }
+  
+  .contact-content {
+    padding-bottom:50px;
+    text-align: center;
+  }
+  
+  .contact-content h4 {
+    font-size: 20px;
+  }
+  
+  .contact-location-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 900px;
+    margin: auto;
+    gap: 40px;
+  }
+  
+  .contact-content {
+    text-align: center;
+  }
+  
+  .contact-location img{
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 1rem 2rem;
+    width: 100%;
+    gap: 1px;
+    padding-right: 5px;
+  }
+  
+  .first-part-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:50px;
+  }
+  
+  
+  
+  .contact-button button {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem 5rem;
+    gap: 10px;
+  }
+  
