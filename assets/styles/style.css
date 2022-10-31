@@ -4,3 +4,34 @@ body {
   color: #777;
   line-height: 1.9;
 }
+  /* header */
+  .menu-nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background:  #fff;
+    padding-left: 20px;
+  }
+  
+  .menu-nav .menu {
+    display: flex;
+    gap: 1vw;
+    
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+  }
+  
+  .menu p {
+    font-weight: 500;
+    padding: 0.3rem 0.5rem;
+  }
+  
+  .menu p:hover {
+   background-color: #575757;
+  }
