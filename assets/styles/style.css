@@ -273,13 +273,94 @@ body {
     grid-template-columns: auto auto;
     gap:50px;
   }
-  
-  
-  
+      
   .contact-button button {
     display: grid;
     grid-template-columns: auto auto;
     padding: 1rem 5rem;
     gap: 10px;
+  }
+  /* footer */
+  .end-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #777;
+    color: #fff;
+    min-height: 250px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .end-page:hover {
+    background-color: #030303;
+  }
+  
+  .footer-content {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  
+  .footer-content button {
+    padding: 1rem 4rem;
+    font-size: 15px;
+  }
+  
+  .fa-arrow-up {
+    color: #000000;
+  }
+  
+  .social-media {
+    padding: 1rem 1rem;
+    align-items: center;
+  }
+  
+  .social-media-icons {
+    font-size: 20px;
+  }
+  
+  /* responsiveness */
+  @media screen and (max-width:425px) {
+    .menu a {
+      font-size: 2.5vw;
+    }
+  
+    .about-picture img {
+      opacity:1;
+    }
+  
+    .testimonials-content,
+    .portfolio-images,
+    .about-image,
+    .first-part-form,
+    .contact-location-info {
+    display: flex;
+    flex-direction: column;
+    }
+  
+    
+    .portfolio-my-work{
+    margin: 1;
+    gap: 15px;
+    }
+  
+    .portfolio-images p {
+      height:15vh;
+    }
+    .about,
+    .contact-location-info { 
+      max-width: 90vw;
+      margin: auto;
+    }
+    .contact-button {
+      padding-left: 20%;
+     
+    }
+    input[type="text"],
+    input[type="email"] {
+    padding: 1rem 1rem;
+    width: 90%;
+   }
+   
   }
   
