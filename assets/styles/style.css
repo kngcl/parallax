@@ -37,6 +37,10 @@ body {
   justify-content: flex-end;
 }
 
+.portfolio-images p {
+  height: 16vh;
+}
+
 .menu p:hover {
   background-color: #575757;
 }
@@ -51,7 +55,7 @@ body {
   object-fit: cover;
   justify-content: center;
   text-align: center;
-  padding-left: 35%; 
+  padding-left: 35%;
   padding-right: 35%;
   opacity: 1;
 }
@@ -65,8 +69,9 @@ body {
   font-family: fantasy;
   font-size: 1.1vw;
 }
+
 /* about */
-.about { 
+.about {
   max-width: 960px;
   margin: auto;
   padding-left: 10px;
@@ -85,9 +90,14 @@ body {
 
 .about-img h3 {
   text-align: center;
-  }
+}
 
-  .about-picture img {
+
+.portfolio-picture img {
+  width: 100%;
+}
+
+.about-picture img {
   width: 90%;
   object-fit: cover;
   border-radius: 10px;
@@ -123,7 +133,7 @@ body {
   background-color: #616161;
   text-align: center;
   color: #fff;
-  padding: 1rem 1rem;
+  padding: 1rem;
   margin-bottom: 0;
 }
 
@@ -148,7 +158,8 @@ body {
   margin-left: 30vw;
   font-size: 20px;
 }
-  /* testimonials */
+
+/* testimonials */
 .testimonials-content {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -161,13 +172,14 @@ body {
   line-height: 0.5;
   padding: 1.5rem 2rem;
 }
-  /* portfolio */
+
+/* portfolio */
 .portfolio-work{
   padding: 90px;
 }
 
 .portfolio-im{
-  background-image: linear-gradient(#d8d2d27a,#dfd7d777), url("https://www.w3schools.com/w3images/parallax2.jpg");
+  background-image: linear-gradient(#d8d2d27a, #dfd7d777), url("https://www.w3schools.com/w3images/parallax2.jpg");
   background-position: center;
   display: flex;
   min-height: 400px;
@@ -196,22 +208,14 @@ body {
   gap: 15px;
 }
 
-.portfolio-images p {
-  height: 16vh;
-}
-
 .portfolio-images p:hover {
   opacity: 0.6;
-}
-
-.portfolio-picture img {
-  width: 100%;
 }
 
 .portfolio-more {
   display: flex;
   background-color: rgb(0 0 0 / 16%);
-  color: #000000;
+  color: #000;
   max-width: 100px;
   padding: 1rem;
   margin: auto;
@@ -222,7 +226,8 @@ body {
   background-color: #777;
   cursor: pointer;
 }
-   /* contact */
+
+/* contact */
 .contact-images{
   display: flex;
   background-image: linear-gradient(#d8d2d27a, #dfd7d777), url("../images/parallax3.jpg");
@@ -334,7 +339,7 @@ input[type="text"] {
 }
 
 .fa-arrow-up {
-  color: #000000;
+  color: #000;
 }
   
 .social-media {
@@ -347,73 +352,73 @@ input[type="text"] {
 }
   
   /* responsiveness */
-@media screen and (max-width:425px) {
-.menu a {
-  font-size: 2.5vw;
+@media screen and (max-width: 425px) {
+  .menu a {
+    font-size: 2.5vw;
   }
 
-.home .home-heading{
-  visibility: hidden;
-}
-
-.home .home-heading::after {
-  visibility: visible;
-  content: "My logo";
-  display: flex;
-  max-width: 600px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem 5rem;
-  font-size: 30px;
-  background-color: #383838;
-  color: #fff;
-}
-
-.about-picture img {
-  opacity:1;
+  .home .home-heading {
+    visibility: hidden;
   }
 
-.testimonials-content,
-.portfolio-images,
-.about-image,
-.first-part-form,
-.contact-location-info {
-  display: flex;
-  flex-direction: column;
-}
+  .home .home-heading::after {
+    visibility: visible;
+    content: "My logo";
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 5rem;
+    font-size: 30px;
+    background-color: #383838;
+    color: #fff;
+  }
 
-.portfolio-my-work{
-  margin: 1;
-  gap: 15px;
-}
+  .about-picture img {
+    opacity:1;
+  }
 
-.portfolio-images p {
-  height: 15vh;
-}
+  .testimonials-content,
+  .portfolio-images,
+  .about-image,
+  .first-part-form,
+  .contact-location-info {
+    display: flex;
+    flex-direction: column;
+  }
 
-.about,
-.contact-location-info { 
-  max-width: 90vw;
-  margin: auto;
-}
+  .portfolio-my-work{
+    margin: 1;
+    gap: 15px;
+  }
 
-.contact-button {
-  display: block;
-  padding-left: 20%;
-}
+  .portfolio-images p {
+    height: 15vh;
+  }
 
-.first-part-form {
-  display: flex;
-  grid-template-columns: auto auto;
-  gap:1px;
-}
+  .about,
+  .contact-location-info { 
+    max-width: 90vw;
+    margin: auto;
+  }
+
+  .contact-button {
+    display: block;
+    padding-left: 20%;
+  }
+
+  .first-part-form {
+    display: flex;
+    grid-template-columns: auto auto;
+    gap:1px;
+  }
 
 
-input[type="text"],
-input[type="email"] {
-  padding: 1rem 1rem;
-  width: 90%;
-}
+  input[type="text"],
+  input[type="email"] {
+    padding: 1rem 1rem;
+    width: 90%;
+  }
 }
   
