@@ -242,7 +242,7 @@ body {
   letter-spacing: 1pc;
   margin-top: 50px;
 }
- 
+
 .contact-details {
   padding: 50px;
 }
@@ -300,7 +300,7 @@ input[type="text"] {
 
 .contact-button button:hover {
   background-color: #777;
-} 
+}
 
 .contact-button {
   display: flex;
@@ -334,7 +334,7 @@ input[type="text"] {
 .fa-arrow-up {
   color: #000;
 }
-  
+
 .social-media {
   padding: 1rem;
   align-items: center;
@@ -391,7 +391,7 @@ input[type="text"] {
   }
 
   .about,
-  .contact-location-info { 
+  .contact-location-info {
     max-width: 90vw;
     margin: auto;
   }
