@@ -92,7 +92,6 @@ body {
   text-align: center;
 }
 
-
 .portfolio-picture img {
   width: 100%;
 }
@@ -165,7 +164,6 @@ body {
   grid-template-columns: auto auto auto auto;
   background-color: #777;
   color: #fff;
-  padding-left: 10px;
   font-size: 23px;
   margin-top: 60px;
   text-align: center;
@@ -174,11 +172,11 @@ body {
 }
 
 /* portfolio */
-.portfolio-work{
+.portfolio-work {
   padding: 90px;
 }
 
-.portfolio-im{
+.portfolio-im {
   background-image: linear-gradient(#d8d2d27a, #dfd7d777), url("https://www.w3schools.com/w3images/parallax2.jpg");
   background-position: center;
   display: flex;
@@ -228,7 +226,7 @@ body {
 }
 
 /* contact */
-.contact-images{
+.contact-images {
   display: flex;
   background-image: linear-gradient(#d8d2d27a, #dfd7d777), url("../images/parallax3.jpg");
   background-position: center;
@@ -266,10 +264,6 @@ body {
   gap: 2px;
 }
 
-.contact-content {
-  text-align: center;
-}
-
 .contact-location img {
   width: 80%;
   border-radius: 10px;
@@ -290,7 +284,7 @@ input[type="text"] {
 .first-part-form {
   display: flex;
   grid-template-columns: auto auto;
-  gap:40px;
+  gap: 40px;
   margin-bottom: 2%;
 }
 
@@ -300,7 +294,7 @@ input[type="text"] {
 
 .contact-button button {
   padding: 1rem 5rem;
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
 }
 
@@ -313,7 +307,8 @@ input[type="text"] {
   display: flex;
   justify-content: flex-end;
 }
-  /* footer */
+
+/* footer */
 .end-page {
   display: flex;
   flex-direction: column;
@@ -321,7 +316,6 @@ input[type="text"] {
   color: #fff;
   min-height: 250px;
   justify-content: center;
-  flex-direction: column;
 }
 
 .end-page:hover {
@@ -350,7 +344,7 @@ input[type="text"] {
 .social-media-icons {
   font-size: 20px;
 }
-  
+
   /* responsiveness */
 @media screen and (max-width: 425px) {
   .menu a {
@@ -388,7 +382,7 @@ input[type="text"] {
     flex-direction: column;
   }
 
-  .portfolio-my-work{
+  .portfolio-my-work {
     margin: 1;
     gap: 15px;
   }
@@ -414,11 +408,9 @@ input[type="text"] {
     gap:1px;
   }
 
-
   input[type="text"],
   input[type="email"] {
-    padding: 1rem 1rem;
+    padding: 1rem;
     width: 90%;
   }
 }
-  
