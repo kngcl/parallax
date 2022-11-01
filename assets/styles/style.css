@@ -264,7 +264,7 @@ body {
   gap: 2px;
 }
 
-.contact-location img {
+.contact-location .picture {
   width: 80%;
   border-radius: 10px;
 }
@@ -326,7 +326,7 @@ input[type="text"] {
   margin: auto;
 }
 
-.footer-content button {
+.footer-contain button {
   padding: 1rem 4rem;
   font-size: 15px;
 }
