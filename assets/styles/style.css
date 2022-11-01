@@ -298,6 +298,11 @@ input[type="text"] {
   color: #fff;
 }
 
+.footer-contain button {
+  padding: 1rem 4rem;
+  font-size: 15px;
+}
+
 .contact-button button:hover {
   background-color: #777;
 }
@@ -324,11 +329,6 @@ input[type="text"] {
 .footer-contain {
   max-width: 900px;
   margin: auto;
-}
-
-.footer-contain button {
-  padding: 1rem 4rem;
-  font-size: 15px;
 }
 
 .fa-arrow-up {
