@@ -242,7 +242,7 @@ body {
   letter-spacing: 1pc;
   margin-top: 50px;
 }
-  
+ 
 .contact-details {
   padding: 50px;
 }
@@ -251,7 +251,7 @@ body {
   padding-bottom: 50px;
   text-align: center;
 }
-  
+
 .contact-content h4 {
   font-size: 20px;
 }
@@ -302,7 +302,6 @@ input[type="text"] {
   background-color: #777;
 } 
 
-
 .contact-button {
   display: flex;
   justify-content: flex-end;
@@ -345,7 +344,7 @@ input[type="text"] {
   font-size: 20px;
 }
 
-  /* responsiveness */
+/* responsiveness */
 @media screen and (max-width: 425px) {
   .menu a {
     font-size: 2.5vw;
@@ -370,7 +369,7 @@ input[type="text"] {
   }
 
   .about-picture img {
-    opacity:1;
+    opacity: 1;
   }
 
   .testimonials-content,
@@ -405,7 +404,7 @@ input[type="text"] {
   .first-part-form {
     display: flex;
     grid-template-columns: auto auto;
-    gap:1px;
+    gap: 1px;
   }
 
   input[type="text"],
