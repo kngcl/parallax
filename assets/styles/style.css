@@ -358,12 +358,11 @@ input[type="text"] {
     visibility: visible;
     content: "My logo";
     display: flex;
-    max-width: 600px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem 5rem;
-    font-size: 30px;
+    padding: 1rem;
+    font-size: 5vw;
     background-color: #383838;
     color: #fff;
   }
