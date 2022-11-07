@@ -17,7 +17,6 @@ We have created a fictional "personal" website/blog, and our fictional character
 - Clone this repository with `https://github.com/kngcl/parallax` using your terminal.
 - Change to the project directory by entering: cd parallax in the terminal.
 
-
 ## steps
 
 - $ git clone `https://github.com/kngcl/parallax/tree/feature/footer`
