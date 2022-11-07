@@ -11,6 +11,14 @@ We have created a fictional "personal" website/blog, and our fictional character
 - HTML
 - CSS
 
+### Prerequisites
+
+Knowledge about:
+
+- HTML
+- CSS
+- Google chrome
+  
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
