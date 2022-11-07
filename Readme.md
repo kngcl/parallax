@@ -17,20 +17,16 @@ We have created a fictional "personal" website/blog, and our fictional character
 - Clone this repository with `https://github.com/kngcl/parallax` using your terminal.
 - Change to the project directory by entering: cd parallax in the terminal.
 
+
 ## steps
 
-- $ git clone `https://github.com/kngcl/parallax`
+- $ git clone `https://github.com/kngcl/parallax/tree/feature/footer`
 - $ `cd parallax`
 - $ `git checkout feature`
 
 ## Start App
 
-- run `npm install`
-- run `npm start` in your CLI
-
-## Test
-
-- run `npm run parallax` to run parallax
+- run by opening the index.html in the browser
 
 ## Author
 
