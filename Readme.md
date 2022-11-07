@@ -19,9 +19,9 @@ We have created a fictional "personal" website/blog, and our fictional character
 
 ## steps
 
-- $ git clone `https://github.com/kngcl/parallax/tree/feature/footer`
+- $ git clone `https://github.com/kngcl/parallax`
 - $ `cd parallax`
-- $ `git checkout feature`
+- $ `git checkout feature/footer`
 
 ## Start App
 
