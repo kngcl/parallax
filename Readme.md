@@ -30,7 +30,7 @@ We have created a fictional "personal" website/blog, and our fictional character
 
 ## Test
 
-- run `npm run test` to run test
+- run `npm run parallax` to run parallax
 
 ## Author
 
