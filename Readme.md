@@ -22,12 +22,12 @@ Knowledge about:
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with `https://github.com/kngcl/parallax` using your terminal.
+- Clone this repository with `git@github.com:kngcl/parallax.git` using your terminal.
 - Change to the project directory by entering: cd parallax in the terminal.
 
 ## steps
 
-- $ git clone `https://github.com/kngcl/parallax`
+- $ git clone `git@github.com:kngcl/parallax.git`
 - $ `cd parallax`
 - $ `git checkout feature/footer`
 
