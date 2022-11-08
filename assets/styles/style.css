@@ -314,6 +314,7 @@ input[type="text"] {
 .contact-button {
   display: flex;
   justify-content: flex-end;
+  margin-left: 10vw;
 }
 
 /* footer */
@@ -410,7 +411,7 @@ input[type="text"] {
 
   .contact-button {
     display: block;
-    padding-left: 20%;
+    margin-left: 5vw;
   }
 
   .first-part-form {
