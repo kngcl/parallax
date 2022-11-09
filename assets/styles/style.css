@@ -289,7 +289,7 @@ input[type="text"] {
 .first-part-form {
   display: flex;
   grid-template-columns: auto auto;
-  gap: 50px;
+  gap: 45px;
   margin-bottom: 2%;
 }
 
@@ -412,11 +412,12 @@ input[type="text"] {
   .contact-location-info {
     max-width: 90vw;
     margin: auto;
+    margin-bottom: 20px;
   }
 
   .contact-button {
-    display: block;
-    margin-left: 5vw0;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .first-part-form {
