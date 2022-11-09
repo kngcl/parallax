@@ -41,6 +41,12 @@ Knowledge about:
 
 - GitHub: [@kngcl](https://github.com/kngcl/parallax)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/kngcl/parallax/issues).
+
 ## 📝 License
 
 This project is [w3school](./LICENSE) licensed.

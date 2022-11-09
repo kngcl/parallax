@@ -3,6 +3,7 @@ body {
   margin: 0;
   color: #777;
   line-height: 1.9;
+  font-family: "Lato", sans-serif;
 }
 
 /* header */
@@ -70,8 +71,8 @@ body {
   padding: 0.1vw 1vw;
   word-spacing: 10px;
   letter-spacing: 10px;
-  font-family: fantasy;
-  font-size: 1.1vw;
+  font-size: 13px;
+  font-weight: lighter;
 }
 
 /* about */
@@ -288,7 +289,7 @@ input[type="text"] {
 .first-part-form {
   display: flex;
   grid-template-columns: auto auto;
-  gap: 40px;
+  gap: 50px;
   margin-bottom: 2%;
 }
 
@@ -297,7 +298,7 @@ input[type="text"] {
 }
 
 .contact-button button {
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
   background-color: #000;
   color: #fff;
 }
@@ -347,6 +348,10 @@ input[type="text"] {
 
 .social-media-icons {
   font-size: 20px;
+}
+
+.footer-link {
+  color: #fff;
 }
 
 /* responsiveness */
@@ -411,7 +416,7 @@ input[type="text"] {
 
   .contact-button {
     display: block;
-    margin-left: 5vw;
+    margin-left: 5vw0;
   }
 
   .first-part-form {
